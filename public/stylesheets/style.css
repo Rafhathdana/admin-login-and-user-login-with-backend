@@ -1,0 +1,61 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #dbda7a;
+}
+
+a {
+  color: #00b7ff;
+}
+.sizewi {
+  max-width: 700px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ffffff;
+}
+
+th {
+  background-color: #ea8989;
+  color: #333;
+  font-weight: 500;
+}
+tr {
+  background-color: rgb(88, 255, 255);
+}
+.edit-btn {
+  background-color: #0f5205;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.edit-btn:hover {
+  background-color: #598e58;
+}
+.delete-btn {
+  background-color: #770202;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.delete-btn:hover {
+  background-color: red;
+  color: black;
+}
